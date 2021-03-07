@@ -78,8 +78,8 @@ body {
     display: block;
   }
   .p{
-      width: 150px;
-      height: 60px;
+      width: auto;
+      height:auto;
       mix-blend-mode: lighten;
      
   }
@@ -108,7 +108,7 @@ margin-top: 20px;
   font-family: Sanchez;
 }
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
   padding: 15px 92px;
@@ -144,11 +144,14 @@ margin-top: 20px;
 }
 .w{
   margin-top: 200px;
+  margin-left: 34PX;
+  margin-right: 64PX;
 }
 
 .w1{
   margin-left: 880px;
   margin-top: -130px;
+  margin-right:12PX;
 }
 .k2{
   color: #fff;
@@ -160,11 +163,13 @@ margin-top: 20px;
   color: #fff;
   font-size: 25px;
 margin-top: 20px;
- 
+margin-right: 2px;
+margin-left: 12px;
   font-family: Sanchez;
 }
 .y{
   margin-top: 230px;
+ width:100%;
 }
 .k3{
   color: #fff;
@@ -176,7 +181,8 @@ margin-top: 20px;
   color: #fff;
   font-size: 25px;
 margin-top: 20px;
-margin-left: 40px;
+margin-left: 50px;
+margin-right: 24px;
   font-family: Sanchez;
 }
 .t4{
@@ -206,8 +212,10 @@ margin-left: 740px;
 .r{
   margin-top: 240px;
   background-color: white;
-height:600px;
-  width: 1550px;
+height:auto;
+  width:auto;
+  border: 3px solid black;
+  border-radius: 12px;
 }
 .i2{
   margin-left: 130px;
@@ -222,6 +230,7 @@ height:600px;
 .o{
   margin-left: 150px;
  font-size: 40px;
+ 
 }
 
 .o1{
@@ -265,7 +274,8 @@ margin-left: 140px;
 .gr{
   background-color: rgb(41, 40, 40);
   height:400px;
-  width: 1550px;
+  width: auto;
+  margin-top: 120px;
 }
 .p1{
   width: 150px;
@@ -283,3 +293,48 @@ margin-left: 140px;
     display: block;
   }
 }
+
+
+.fam{
+    margin:120px;
+    margin-bottom: 120px;
+}
+
+
+
+
+
+
+
+
+
+.lev{height:500px;}
+
+
+
+
+
+
+.img1{ margin:120px;}
+
+.logo{height: 120px;
+width: 300px;
+
+}
+
+.fai
+{
+margin-left: 2px;
+margin-bottom: 19px;
+
+border-radius: 18px;
+}
+
+
+
+::-webkit-scrollbar{
+  width: 0px;
+}
+
+
+.wop{ margin: 15px;}
